@@ -1,0 +1,30 @@
+﻿body {
+    background-color: rgb(237, 229, 229);
+}
+
+/*UserManagement*/
+
+/*Table*/
+.myTh th{
+    text-align: center;
+    background-color: #cbd4db;
+}
+
+.editUserLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.deleteUserLink:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Form*/
+#addUserForm {
+    background-color: #cbd4db;
+}
+
+#editUserForm {
+    background-color: #cbd4db;
+}

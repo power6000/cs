@@ -1,0 +1,28 @@
+﻿@using MyBlog.Models.Posts
+@model IndexModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div id="Posts">
+    <h1>List of Posts</h1>
+    <table>
+        <thead>
+        <tr><th>Post</th><th>Date</th></tr>
+        </thead>
+        <tbody>
+        @foreach (var post in Model.Posts)
+        {
+            <tr class="row">
+
+              <td class="col-sm-3">@post.Body</td>
+                <td>@post.AddeDate  <span class="glyphicon glyphicon-inbox"></span></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+
+

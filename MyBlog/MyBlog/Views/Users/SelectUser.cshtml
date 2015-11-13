@@ -1,0 +1,28 @@
+﻿@using MyBlog.Models.Users
+@model UserModel
+
+
+<div class="control-group row" style="margin-bottom: 10px;">
+    <label class="control-label col-md-2">LastName:</label>
+    <div class="controls col-md-8">
+        @Html.TextBoxFor(x => x.LastName, new { @class = "form-control js-lastNameEdit" })
+    </div>
+</div>
+
+<div class="control-group row" style="margin-bottom: 10px;">
+    <label class="control-label col-md-2">FirstName:</label>
+    <div class="controls col-md-8">
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control js-firstNameEdit", id = "" })
+    </div>
+</div>
+
+
+<div class="control-group row" style="margin-bottom: 10px;">
+    <label  class="control-label col-md-2">Email:</label>
+    <div class="controls col-md-8">
+        @Html.TextBoxFor(x => x.Email, new {@class = "form-control js-eMailEdit"})
+    </div>
+</div>
+
+
+@Html.HiddenFor(x => x.ID, new { @class = "form-control js-Id"})

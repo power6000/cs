@@ -1,0 +1,15 @@
+﻿
+
+.tableUsers h3 {
+    padding: 10px 0;
+}
+
+/*User*/
+
+#addUserForm {
+    padding: 0 10px 10px 10px;
+}
+
+#editUserForm {
+    padding: 0 10px 10px 10px;
+}

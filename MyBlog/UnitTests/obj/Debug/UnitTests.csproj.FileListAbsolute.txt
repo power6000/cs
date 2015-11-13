@@ -1,0 +1,14 @@
+F:\comp\development\C#\lessons\MyBlog\UnitTests\bin\Debug\UnitTests.dll
+F:\comp\development\C#\lessons\MyBlog\UnitTests\bin\Debug\UnitTests.pdb
+F:\comp\development\C#\lessons\MyBlog\UnitTests\obj\Debug\UnitTests.dll
+F:\comp\development\C#\lessons\MyBlog\UnitTests\obj\Debug\UnitTests.pdb
+E:\comp\GoogleDisk\C#\lessons\MyBlog\UnitTests\bin\Debug\UnitTests.dll
+E:\comp\GoogleDisk\C#\lessons\MyBlog\UnitTests\bin\Debug\UnitTests.pdb
+E:\comp\GoogleDisk\C#\lessons\MyBlog\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+E:\comp\GoogleDisk\C#\lessons\MyBlog\UnitTests\obj\Debug\UnitTests.dll
+E:\comp\GoogleDisk\C#\lessons\MyBlog\UnitTests\obj\Debug\UnitTests.pdb
+E:\GoogleDrive\C#\Code\MyBlog\UnitTests\bin\Debug\UnitTests.dll
+E:\GoogleDrive\C#\Code\MyBlog\UnitTests\bin\Debug\UnitTests.pdb
+E:\GoogleDrive\C#\Code\MyBlog\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+E:\GoogleDrive\C#\Code\MyBlog\UnitTests\obj\Debug\UnitTests.dll
+E:\GoogleDrive\C#\Code\MyBlog\UnitTests\obj\Debug\UnitTests.pdb

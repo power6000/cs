@@ -1,0 +1,37 @@
+﻿@using MyBlog.Models.Users
+@model UserModel
+
+@{
+    ViewBag.Title = "AddUser";
+    Layout = "~/Views/_BasicLayout.cshtml";
+    
+    AjaxOptions ajaxOptions = new AjaxOptions
+    {
+        UpdateTargetId = "usersList",
+        Url = Url.Action("AddUser"),
+        LoadingElementDuration = 1000,
+        LoadingElementId = "loading"
+    };
+}
+
+<div class="container" style="margin-top: 10px;">
+    
+    @using (@Ajax.BeginForm("AddUser", ajaxOptions))
+    {          
+        @Html.Partial("SelectUser");
+        
+        <div class="control-group" style="margin-left: 120px;">
+            <div class="controls">
+                <input type="submit" class="btn-success" value="Add" style="width: 60px;"/>
+                <input type="reset" class="btn-default" value="Cancel" style="width: 60px;"/>
+            </div>
+        </div>
+    }
+
+</div>
+
+<div id="loading" class="load" style="display: none; position: absolute; top: 150px; left: 400px;">
+    <p>Loading...</p>
+</div>
+
+<div id="usersList"></div>
